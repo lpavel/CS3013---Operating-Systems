@@ -1,0 +1,3 @@
+Name: Laurentiu Pavel
+
+Linux ubuntu 3.2.62lpavel #1 SMP Sun Sep 7 17:53:18 PDT 2014 i686 i686 i386 GNU/Linux

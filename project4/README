@@ -1,0 +1,11 @@
+This is the implementation of the 4th project of Operating Systems. It asks to do a file I/O program that can read a given file using a buffer I/O with a given buffer or using memory-mapped I/O without threads or with a specified number of children threads. A detailed report of the testings done can be found on the doc file CS3013 - Final Report.docx
+
+In order to make the project, simply run make. It will create an executable that provides you with the information wanted: file size, number of readable longer than 4 strings, and the max string length.
+
+The syntax is:
+./proj4 "input file" "parameter"
+- if the parameter is empty, then the read of the file will be done using buffer IO with a buffer of size 1024
+- if the parameter is a number, than the read will be done with a buffer of size equal to the number you entered. The restriction is that the size of the buffer can be a value between 1 and 8192.
+- if parameter is the string "mmap" than the read will be done using memory mapped file IO only on the main process.
+- if parameter is "px" where x can be a number between 1 and 16, then the reading and computation will be done using memory mapped I/O with x number of threads
+

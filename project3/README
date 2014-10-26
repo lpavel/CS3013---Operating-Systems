@@ -1,0 +1,12 @@
+Name: Laurentiu Pavel
+wpi username: lpavel@wpi.edu
+In order to create the modules and executables, simply run "make".
+
+There are 2 main c++ files addem.cpp and life.cpp, the first one implementing the first part of the project and the 2nd one implementing the game of life. After running make, 2 executable files will be created: addem and life
+
+Addem implements part 1 and can be called with the arguments ./addem number_of_threads maximum_value
+It will use the number of threads specified to calculate the sum of the numbers from 1 to maximum value. In order to see the funcitonality of addem, run ./script_addem.sh or try some inputs yourself.
+
+Life implements part 2 of the assignment. This executable implements both the regular game and the optimization that stops the game when there is nothing that can change anymore. It can be run as specified in the assignment with the following structure: ./life threads filename generations print input
+Important mentions: the file with the input must be ended with a newline. Also, print and input do not return errors for bad input, but they will be set to the default when you don't give it a "y".
+The script ./script_life.sh will create a bunch of txt files from some inputs that I found pretty representative. Important to mention is that the script doesn't include a version in which you have to press enter for every state. When ready to input keys form the keyboard, you can use some of the commands that are in the script in which you change only the last parameter into y

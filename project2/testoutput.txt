@@ -1,0 +1,45 @@
+--------------------------------------------
+Description of operation: child of child process
+state: 0
+pid: 5850
+parent_pid: 5849
+youngest_child: -1
+younger_sibling: -1
+older_sibling: -1
+start time: 2523882845540
+user time: 0
+sys time: 0
+cutime: 0
+cstime: 0
+--------------------------------------------
+
+--------------------------------------------
+Description of operation: Child process
+state: 0
+pid: 5849
+parent_pid: 5848
+youngest_child: 5850
+younger_sibling: -1
+older_sibling: -1
+start time: 2523882477541
+user time: 0
+sys time: 0
+cutime: 0
+cstime: 0
+--------------------------------------------
+
+--------------------------------------------
+Description of operation: Parent Process begin
+state: 0
+pid: 5848
+parent_pid: 2742
+youngest_child: 5849
+younger_sibling: -1
+older_sibling: -1
+start time: 2523879692613
+user time: 0
+sys time: 0
+cutime: 0
+cstime: 0
+--------------------------------------------
+
