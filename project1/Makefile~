@@ -1,7 +1,0 @@
-all: doit
-
-doit: doit.o
-	g++ doit.cpp -g -o doit
-
-clean:
-	rm -f *.o doit
